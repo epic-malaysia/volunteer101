@@ -1,6 +1,7 @@
 import React from 'react';
 import { WORKSHOP_CONFIG } from '../data/workshopData';
 import { Calendar, MapPin, Clock, HeartHandshake, ExternalLink } from 'lucide-react';
+import heroImg from '../assets/images/hero_malaysian_community_1791961730579.jpg';
 
 interface HeroProps {
   onRegisterClick: () => void;
@@ -131,10 +132,9 @@ export const Hero: React.FC<HeroProps> = ({ onRegisterClick, onSeeAgendaClick })
                   title="Explore missions on Sedunia (sedunia.me)"
                 >
                   <img
-                    src="/src/assets/images/hero_malaysian_community_1791961730579.jpg"
+                    src={heroImg}
                     alt="Ordinary People, Real Impact - diverse Malaysian community volunteers in Subang Jaya"
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
-                    referrerPolicy="no-referrer"
                   />
                 </a>
               </div>

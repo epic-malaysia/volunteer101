@@ -1,3 +1,6 @@
+import facilitatorYvonneImg from '../assets/images/facilitator_yvonne_lim.png';
+import facilitatorJayneImg from '../assets/images/facilitator_jayne_kennedy.png';
+
 export interface ScheduleItem {
   time: string;
   duration: string;
@@ -138,12 +141,12 @@ export const FACILITATORS: Facilitator[] = [
   {
     name: "Dr Yvonne Lim",
     role: "Head of Social Impact, EPIC",
-    image: "https://epic.my/wp-content/uploads/2025/08/W-team-img-04-Dr.-Yvonne-Lim.png",
+    image: facilitatorYvonneImg,
   },
   {
     name: "Jayne Kennedy",
     role: "Community Engagement & Growth, EPIC",
-    image: "https://epic.my/wp-content/uploads/2025/08/W-team-img-02-Jayne-Kennedy.png",
+    image: facilitatorJayneImg,
   },
 ];
 

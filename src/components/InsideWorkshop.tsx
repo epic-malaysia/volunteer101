@@ -1,6 +1,7 @@
 import React from 'react';
 import { WORKSHOP_TIMELINE, WORKSHOP_CONFIG } from '../data/workshopData';
 import { Calendar, MapPin, Clock, ExternalLink } from 'lucide-react';
+import workshopCircleImg from '../assets/images/workshop_circle_group_1791961732169.jpg';
 
 export const InsideWorkshop: React.FC = () => {
   return (
@@ -98,10 +99,9 @@ export const InsideWorkshop: React.FC = () => {
 
               <div className="aspect-[4/3] rounded-xl overflow-hidden bg-slate-100">
                 <img
-                  src="/src/assets/images/workshop_circle_group_1791961732169.jpg"
+                  src={workshopCircleImg}
                   alt="Malaysian community members engaged in an informal circle discussion with notebooks and post-it notes"
                   className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
                 />
               </div>
             </div>

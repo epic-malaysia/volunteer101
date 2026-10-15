@@ -6,6 +6,7 @@ import {
   FACILITATORS
 } from '../data/workshopData';
 import { Award, ExternalLink, Heart, ShieldCheck, ArrowLeft, Users, Sparkles, MapPin } from 'lucide-react';
+import epicBuildingImg from '../assets/images/epic_home_building_1791961732217.jpg';
 
 interface AboutEpicPageProps {
   onBackToHome: () => void;
@@ -89,10 +90,9 @@ export const AboutEpicPage: React.FC<AboutEpicPageProps> = ({
             <div className="relative bg-white/5 p-3 rounded-2xl border border-white/10 shadow-2xl backdrop-blur-xs">
               <div className="aspect-[16/10] sm:aspect-[4/3] rounded-xl overflow-hidden bg-slate-800">
                 <img
-                  src="/src/assets/images/epic_home_building_1791961732217.jpg"
+                  src={epicBuildingImg}
                   alt="Team EPIC & Kg Kerawat, Kabag & Kamyen celebrating their achievements"
                   className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
                 />
               </div>
               <div className="mt-3 px-2 text-xs text-slate-300">
